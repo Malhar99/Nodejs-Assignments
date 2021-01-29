@@ -1,0 +1,11 @@
+Assignment -4 :
+Upload Car picture.
+   - Create new table of "CarImage"
+       Fields : id (serial), CarId(FK-car), ImageName, createdDate
+    Folder : uploads/car_image/
+  Get Id of Car and Get Image name(after uploading image), insert it in "CarImage" table.
+
+All Car details
+{
+ id, model name, make name, image : [{image: "http://localhost:3000/images/image_23432432244.jpg"},{image: "http://localhost:3000/images/image_4565434453.jpg"}]
+}

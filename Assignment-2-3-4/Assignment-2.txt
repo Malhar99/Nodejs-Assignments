@@ -1,0 +1,9 @@
+Assignment-2:
+1. Create 3 tables 
+ 1. make(id-Serial, Name-Text)
+ 2. model(id-Serial, Name-Text)
+ 3. car(id-Serial, Name-Text, makeid-int(fK), modelid-int(fK))
+2. Create API to get all car details.
+ eg: car name, make and model
+3. Get car details by Id
+ eg: car name, make and model
