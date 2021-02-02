@@ -1,0 +1,23 @@
+Create User table : id, email and password
+
+1. Login API
+url : http://localhost:3000/api/user/login
+method : POST
+Headers :  Content-Type:application/json
+   Accept-Language:1053
+Body(x-www-form-urlencoded) :
+Email: 26@gtl.com
+Password: 12345 
+
+2. Get All Cars
+url : http://localhost:3000/api/cars
+method : GET
+Headers :  Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6MjYsIkVtYWlsIjoiMjZAZ3RsLmNvbSIsIlVzZXJuYW1lIjoiNDQ0NDQ0NCIsImlhdCI6MTYxMjI2NzM1Nn0.6Pi25NEmres2zagUuPs76eIEnwayD8WkSnpXaBdpNyM
+   Accept-Language:1030 (danish)  / 1033 (english) / 1053 (swedish)
+
+
+3. Get Car by Id
+url : http://localhost:3000/api/car/1
+method : GET
+Headers :  Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6MjYsIkVtYWlsIjoiMjZAZ3RsLmNvbSIsIlVzZXJuYW1lIjoiNDQ0NDQ0NCIsImlhdCI6MTYxMjI2NzM1Nn0.6Pi25NEmres2zagUuPs76eIEnwayD8WkSnpXaBdpNyM
+   Accept-Language:1030 (danish)  / 1033 (english) / 1053 (swedish)
