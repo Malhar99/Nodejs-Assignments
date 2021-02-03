@@ -33,7 +33,13 @@ const getCarById = (request, response) => {
     if (error) {
       throw error
     }
+    var notExist = results.rowCount;
+    if(notExist === 0){
+      response.status(200).json("ID Not Exist")
+    }
+    else{
     response.status(200).json(results.rows)
+    }
   })
 }
 
